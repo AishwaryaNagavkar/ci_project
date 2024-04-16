@@ -1,0 +1,33 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.form-control.border-0.border-bottom,
+.form-control.border-0.border-bottom+.border-0.border-bottom {
+    transition: border 1s cubic-bezier(0.88, 0.25, 0.53, 1.1);
+    border-radius: 0 !important;
+}
+
+.form-control.border-0.border-bottom:focus,
+.form-control.border-0.border-bottom:focus+.border-0.border-bottom {
+    box-shadow: unset;
+    border-color: var(--bs-info) !important;
+}
+
+#alert_toast {
+    z-index: 9999;
+    top: 5%;
+}
+
+#detials-avatar {
+    width: 12em;
+    height: 12.5em;
+    object-fit: scale-down;
+    object-position: center center;
+}
+
+.dataTable {
+    padding-top: 1.5em !important;
+}
